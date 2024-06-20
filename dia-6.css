@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAFAF9;
+}
+.card{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 16px;
+    gap: 10px;
+    border-radius: 16px;
+    width: calc(336px + 32px);
+}
+.card img{
+    width: 336px;
+    height: 152px;
+    border-radius: 10px;
+}
+.card span{
+    font-family: "Sora", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #883AE1;
+    background-color: #E6D6FC;
+    padding: 6px 16px;
+    border-radius: 10px;
+    width: max-content;
+    align-self: flex-start;
+    margin-left: 16px;
+}
+.card p{
+    width: 336px;
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+    color: #6C727F;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.card h2{
+    font-family: "Sora", sans-serif;
+    font-size: 18px;
+    text-align: start;
+    color: #20293A;
+    width: 336px;
+}
+.author{
+    border-top: 1px solid #E5EAF0;
+    width: 100%;
+    padding: 1px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 50px;
+}
+.author p{
+    font-size: 10px;
+}
